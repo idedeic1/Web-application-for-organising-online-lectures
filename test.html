@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+    
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<link rel="stylesheet" type="text/css" href="raspored.css">
+
+
+
+<TITLE> Projekat, Spirala2</TITLE>
+</HEAD>
+<BODY> 
+
+    <div id="prviDiv" >
+
+    </div>
+    
+    <div id="mocha">
+    
+    </div>
+
+
+<script src="https://unpkg.com/chai/chai.js"></script>
+<script src="https://unpkg.com/mocha/mocha.js"></script>
+  
+<script class="mocha-init">
+      mocha.setup('bdd');
+      mocha.checkLeaks();
+</script>
+
+<script src="iscrtajModul.js" defer></script>
+<script src="test.js" defer></script>
+
+<script class="mocha-exec">
+    mocha.run();
+</script>
+
+
+
+</BODY>
+</HTML>

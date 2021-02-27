@@ -1,0 +1,43 @@
+table  {
+  border: 1px solid black;
+  border-collapse: collapse;
+  table-layout: fixed;
+}
+
+td {
+  border: 1px solid black;
+  text-align: center;
+  width: 180px;
+  height: 40px;
+  overflow: hidden;
+}
+
+tr {
+  border: 1px solid black;
+  text-align: center;
+  overflow: hidden;
+   }
+
+tbody  tr:hover td {
+    border-top: 2px solid black;    
+    border-bottom: 2px solid black;
+  } 
+
+tbody  tr:hover td:first-child{
+  border-left: 2px solid black;  
+}
+
+tbody  tr:hover td:last-child{
+  border-right: 2px solid black;  
+}
+
+.divBorder{
+  text-align: center; 
+  border: 3px solid black; 
+  width: 200px; 
+  height: 180px; 
+  float:right; 
+  top: 10px; 
+  right:10px; 
+  position: fixed; 
+}

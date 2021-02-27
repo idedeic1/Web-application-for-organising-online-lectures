@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<HTML>
+<HEAD>
+<META http-equiv="Content-Type" content="text/html; charset=utf-8;">
+<TITLE>unosRasporeda.html</TITLE>
+<link rel="stylesheet" type="text/css" href="unosRasporeda.css">
+<script src="unosRasporeda.js" defer></script>
+</HEAD>
+
+
+<BODY > 
+
+<h1 class="center">Unos rasporeda</h1>
+<div class = "center">
+  
+  <hr>
+
+<div >
+  <label  for="nazivPredmeta"> Naziv predmeta: </label> 
+  <input type="text" id="nazivAktivnosti">
+</div>
+
+<br>
+
+<div >
+  <label for="tipNastave"> Tip: </label>
+    <SELECT id="tipNastave" name="tip">
+    </SELECT>
+  </div>
+
+<br>
+
+<div >
+  <label for="vrijemePocetka"> Vrijeme početka: </label>
+  <input type="time" id="vrijemePocetka" >
+</div>
+
+<br>
+
+<div >
+  <label for="vrijemeKraja"> Vrijeme kraja: </label>
+  <input type="time" id="vrijemeKraja">
+</div>
+
+<br>
+
+<div >
+  <label for="dan"> Dan u sedmici: </label>
+  <SELECT id="danSedmice" name = "dan">
+  </SELECT>
+  <br>
+  <br>
+
+  <input type="submit" value="Potvrdi" style="margin-left: 263px" onclick="dodavanjeAktivnosti()" >
+</div>
+<br>
+
+<div class="divBorder2">
+  <label for="predmeti">Predmeti u bazi: </label>
+  <ul id="predmeti">
+  </ul>
+  <br><br>
+  <label for="aktivnosti">Aktivnosti u bazi: </label>
+  <ul id="aktivnosti">
+  </ul>
+</div>
+
+</div>
+
+<div class="divBorder">
+    <h1> Meni </h1>
+  
+  <br>
+  <a href="student.html"> Link na unos studenta </a>
+  <br>
+  <a href="unosRasporeda.html"> Link na unos rasporeda </a>
+</div>
+  
+
+
+
+</BODY>
+
+</HTML>

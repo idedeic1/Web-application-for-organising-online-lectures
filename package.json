@@ -1,0 +1,23 @@
+{
+  "name": "wt20p17514",
+  "version": "1.0.0",
+  "main": "zadatak1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://idedeic1@bitbucket.org/idedeic1/wt20p17514.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/idedeic1/wt20p17514#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {},
+  "description": ""
+}
